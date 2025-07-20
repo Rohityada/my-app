@@ -30,3 +30,14 @@ function showMessage(){
     
 }
 showMessage();
+
+function greeting(name, callback) {
+    console.log("Hello, " + name + "!");
+    callback();
+  }
+  
+  function farewell() {
+    console.log("Goodbye!");
+  }
+  
+  greeting("John", farewell);

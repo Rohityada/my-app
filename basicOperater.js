@@ -28,3 +28,16 @@ console.log( +y2 ); // -2
 // Converts non-numbers
 console.log( +true ); // 1
 console.log( +"" );   // 0
+
+console.log(false && false);
+console.log(false || true);
+console.log(!true);
+console.log(!false);
+console.log(false && true);
+console.log(true && true);
+console.log(true || true);
+console.log(false || false);
+console.log(true && false);
+
+
+
